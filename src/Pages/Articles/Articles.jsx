@@ -1,6 +1,7 @@
 import React from 'react';
 import './Articles.css';
 import { articlesData } from "../../Data/Data";
+import { Link } from 'react-router-dom';
 
 export default function ArticlesPage() {
     return (
@@ -17,10 +18,12 @@ export default function ArticlesPage() {
                                 <img src={article.image} alt={article.title} />
                             </div>
                             <div className="articleInfo">
-                                <h2>{article.title}</h2>
+                                <h2>
+                                <Link to='*' className="articleTitleLink"> {article.title}</Link>
+                                </h2>
                                 <p className="articleMeta">By {article.author} on {article.date}</p>
                                 <p className="articleExcerpt">{article.excerpt}</p>
-                                <button className="btn btn-border">Read More</button>
+                              
                             </div>
                         </div>
                     ))}
@@ -29,3 +32,4 @@ export default function ArticlesPage() {
         </div>
     );
 }
+
