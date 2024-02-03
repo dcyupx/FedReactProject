@@ -187,8 +187,8 @@ export const featuredBooksData =[
         imgLlink: "*", 
         nameLink:"*",
         name: 'Eye of the Fox',        
-        writer:'Sanchit Howdy',
-        price: '$ 38.00 '      
+        writer:'Minka Brown',
+        price: '$ 28.00 '      
     },
     {
         id: 2,
@@ -196,7 +196,7 @@ export const featuredBooksData =[
         imgLlink: "*", 
         nameLink:"*",
         name: ' Howls Moving Castle',
-        writer:'Sanchit Howdy',
+        writer:'Diana Wayne Jones',
         price: '$ 38.00 ' 
 
     },
@@ -206,8 +206,8 @@ export const featuredBooksData =[
         imgLlink: "*", 
         nameLink:"*", 
         name: 'The Last Royal Dragon',
-        writer:'Sanchit Howdy',
-        price: '$ 38.00 '      
+        writer:'Dazai Osamu',
+        price: '$ 32.00 '      
     },
     {
         id: 4,
@@ -215,8 +215,8 @@ export const featuredBooksData =[
         imgLlink: "*", 
         nameLink:"*", 
         name: 'The House on Vesper Sands',
-        writer:'Sanchit Howdy',
-        price: '$ 38.00 '      
+        writer:'Paraic Dowell',
+        price: '$ 18.00 '      
     },
     {
         id: 5,
@@ -224,7 +224,7 @@ export const featuredBooksData =[
         imgLlink: "*", 
         nameLink: "*", 
         name: 'Deadly Curious',
-        writer:'Sanchit Howdy',
+        writer:'Cindy Anstey',
         price: '$ 38.00 '      
     },
 ];
