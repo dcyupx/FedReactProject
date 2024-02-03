@@ -354,6 +354,7 @@ export const articlesData = [
   {
       id: 1,
       title: "The Rise of E-books and Digital Reading",
+      author: "Kim Namjoon",
       excerpt: "Exploring how digital formats are changing our reading habits and what it means for the future of books.",
       date: "Jan 24, 2024",
       image: Article1,
@@ -361,6 +362,7 @@ export const articlesData = [
   {
       id: 2,
       title: "The Art of Book Cover Design",
+      author: "Kim Seokjin",
       excerpt: "A look at how book covers are created and what makes for a captivating and successful design.",
       date: "Feb 10, 2024",
       image: Article2,
@@ -368,6 +370,7 @@ export const articlesData = [
   {
       id: 3,
       title: "Bestselling Books of the Decade",
+      author: "Min Yoongi",
       excerpt: "A retrospective on the most popular and influential books of the past ten years.",
       date: "Mar 3, 2024",
       image: Article3,
@@ -375,6 +378,7 @@ export const articlesData = [
   {
       id: 4,
       title: "The Importance of Independent Bookstores",
+      author: "Jung Hoseok",
       excerpt: "Why supporting local bookstores is crucial for the book industry and local communities.",
       date: "Mar 18, 2024",
       image: Article4,
@@ -382,6 +386,7 @@ export const articlesData = [
   {
       id: 5,
       title: "Exploring Literary Genres: From Romance to Sci-Fi",
+      author: "Park Jimin",
       excerpt: "A journey through various literary genres and what makes each one unique.",
       date: "Apr 8, 2024",
       image: Article5,
@@ -389,6 +394,7 @@ export const articlesData = [
   {
       id: 6,
       title: "The Impact of Literature on Society",
+      author: "Kim Taehyung",
       excerpt: "How books have shaped and influenced our world throughout history.",
       date: "Apr 22, 2024",
       image: Article6,
@@ -396,6 +402,7 @@ export const articlesData = [
   {
       id: 7,
       title: "Writing Tips from Bestselling Authors",
+      author: "Jeon Jungkook",
       excerpt: "Advice from successful authors on writing and how to navigate the world of publishing.",
       date: "May 15, 2024",
       image: Article7,
@@ -403,6 +410,7 @@ export const articlesData = [
   {
       id: 8,
       title: "The Evolution of Children's Literature",
+      author: "BTS",
       excerpt: "A look at how children's books have evolved over time and their importance in early education.",
       date: "May 30, 2024",
       image: Article8,
