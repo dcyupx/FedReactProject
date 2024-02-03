@@ -1,0 +1,136 @@
+.shop {
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.shop h1 {
+    text-align: center;
+    color: var(--color-black-Ex);
+    margin-bottom: 30px;
+}
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.book {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.book-content {
+    margin-bottom: auto;
+}
+
+.quantity-controls,
+.add-to-cart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.book h3, .book p {
+    color: var(--color-dark);
+    margin-bottom: 15px;
+}
+
+.book-image {
+    width: 250px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 0 auto 20px;
+}
+
+.quantity-controls,
+.add-to-cart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.quantity-controls button,
+.add-to-cart-btn {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.quantity-controls button:hover,
+.add-to-cart-btn:hover {
+    background-color: var(--color-primary-dark);
+}
+
+@media (max-width: 1200px) {
+    .books {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+    .books {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .books {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .book-image {
+        width: 200px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .shop h1 {
+        font-size: 20px; 
+    }
+
+    .books {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .book-image {
+        width: 180px;
+        height: 270px;
+    }
+}
+
+@media (max-width: 480px) {
+    .shop {
+        padding: 10px;
+    }
+
+    .books {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .book-image {
+        width: 120px;
+        height: 180px;
+    }
+
+    .quantity-controls button,
+    .add-to-cart-btn {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+}

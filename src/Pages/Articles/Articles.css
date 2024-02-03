@@ -1,0 +1,78 @@
+.articlesPage {
+    padding: 40px 0;
+}
+
+.articlesPage .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.articlesPage .pageHeader h1 {
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.articlesPage .articlesList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.articleCard {
+    flex-basis: calc(50% - 15px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.articleImage img {
+    width: 100%;
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.articleInfo h2 {
+    font-size: 22px;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+.articleInfo .articleMeta {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.articleInfo .articleExcerpt {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.readMoreBtn {
+    align-self: center; /* Center the button */
+    color: #007bff;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.readMoreBtn:hover {
+    color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .articleCard {
+        flex-basis: 100%;
+    }
+}
