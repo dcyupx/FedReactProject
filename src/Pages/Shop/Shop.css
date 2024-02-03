@@ -47,14 +47,11 @@
     object-fit: cover;
     border-radius: 20px;
     margin: 0 auto 20px;
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
 }
 
-.quantity-controls,
-.add-to-cart-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+.book-image:hover {
+    transform: scale(1.05); /* Scale image on hover */
 }
 
 .quantity-controls button,
@@ -66,11 +63,13 @@
     cursor: pointer;
     border-radius: 4px;
     margin: 5px;
+    transition: background-color 0.3s ease; /* Smooth background transition */
 }
 
 .quantity-controls button:hover,
 .add-to-cart-btn:hover {
     background-color: var(--color-primary-dark);
+    transform: scale(1.1); /* Scale button on hover for emphasis */
 }
 
 @media (max-width: 1200px) {
@@ -99,7 +98,7 @@
 
 @media (max-width: 768px) {
     .shop h1 {
-        font-size: 20px; 
+        font-size: 20px;
     }
 
     .books {
