@@ -12,15 +12,15 @@ export default function Contact() {
                 <div className="info">
                     <div className="info-item">
                         <h3>Address</h3>
-                        <p>123 Book Street, Reading City, RC 45678</p>
+                        <p>666 Jorpati Chamunda Gate</p>
                     </div>
                     <div className="info-item">
                         <h3>Phone</h3>
-                        <p>+1 234 567 8900</p>
+                        <p>+977-9860098000</p>
                     </div>
                     <div className="info-item">
                         <h3>Email</h3>
-                        <p>support@bookstore.com</p>
+                        <p>zen.support@bookstore.com</p>
                     </div>
                 </div>
             </div>
