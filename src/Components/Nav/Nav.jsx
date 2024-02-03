@@ -9,6 +9,7 @@ import { useState } from 'react';
 export default function Nav() {
 
     const [isNavLinksShowing, setIsNavLinkShowing] = useState(false);
+    // eslint-disable-next-line no-restricted-globals
     if(innerWidth < 1024){
         window.addEventListener('scroll',()=>{document.querySelector('.nav-links').classList.add('navLinksHide');
         setIsNavLinkShowing(!false)
