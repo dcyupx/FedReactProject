@@ -5,7 +5,7 @@ export default function CopyRight(){
     return(
         <div className='footer-copyright'>
             <div className="container copyright-container">
-                <p>© 2023 Decay Deez Nuts. All right reserved.</p>
+                <p>© 2024 Zen Books. All right reserved.</p>
                 <div className="footer-socials">
                     {
                         FootersLinksData.socials.map((item,index)=>{
